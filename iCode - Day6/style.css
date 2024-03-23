@@ -1,0 +1,121 @@
+/* Add CSS here */
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.color{
+    height:30px;
+    width:430px;
+    border-radius: 12px;
+    background: linear-gradient(45deg,orange, yellow,rgb(132, 216, 5),rgb(9, 208, 238),rgb(110, 3, 241),pink);
+    opacity: 40%;
+    z-index: -1;
+
+}
+.container{
+    height:380px;
+    width:530px;
+    background-color: white;
+    border-radius:6px;
+    margin-top:-18px;
+    box-shadow: 2px 2px 4px rgb(180, 179, 179,0.7) ;
+    
+}
+.container h2{
+    margin-top:10%;
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+}
+.container p{
+    font-size:11px;
+    text-align:center;
+    padding: 10px  100px 5px 130px ;
+    
+}
+.row1{
+    margin-top:7% ;
+    margin-bottom:6%;
+    margin-left:15%;
+}
+.row2{
+    margin-bottom:10%;
+    margin-left:15%;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    height:60px;
+    width:100px;
+    font-size:12px;
+    margin-right:30px;
+}
+.btn1{
+    border: 1px solid orange;
+    box-shadow: 1px 1px 4px orange;
+}
+.btn2{
+    border: 1px solid yellow;
+    box-shadow: 1px 1px 4px yellow;
+}
+.btn3{
+    border: 1px solid rgb(132, 216, 5);
+    box-shadow: 1px 1px 4px rgb(132, 216, 5);
+}
+.btn4{
+    border: 1px solid rgb(9, 208, 238);
+    box-shadow: 1px 1px 4px rgb(9, 208, 238);
+}
+.btn5{
+    border: 1px solid rgb(110, 3, 241);
+    box-shadow: 1px 1px 4px rgb(110, 3, 241);
+}
+.btn6{
+    border: 1px solid pink;
+        box-shadow: 1px 1px 4px pink;
+}
+
+.btn1:hover {
+    background-color:  orange; 
+    opacity: 80%;
+    transform: scale(.9);
+    transition: 1s ease-in;
+    
+}
+
+.btn2:hover {
+    background-color: yellow;
+        opacity: 80%;
+        transform: scale(.9);
+        transition: 1s ease-in;
+}
+
+.btn3:hover {
+    background-color: rgb(132, 216, 5);
+        opacity: 80%;
+        transform: scale(.9);
+        transition: 1s ease-in;
+}
+
+.btn4:hover{
+    background-color: rgb(9, 208, 238);
+        opacity: 80%;
+        transform: scale(.9);
+        transition: 1s ease-in;
+}
+
+.btn5:hover {
+    background-color: rgb(110, 3, 241);
+        opacity: 80%;
+        transform: scale(.9);
+        transition: 1s ease-in;
+}
+
+.btn6:hover {
+    background-color: pink;
+        opacity: 80%;
+        transform: scale(.9);
+        transition: 1s ease-in;
+}

@@ -1,0 +1,73 @@
+/* Add CSS here */
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height:300px;
+    width:270px;
+    background-image: url('https://media.istockphoto.com/id/1183046976/photo/christmas-background.jpg?s=2048x2048&w=is&k=20&c=vrbz2TvoGLqxM1PFH21Su8oyotaTsUVdhvWfVJIin7I=') ;
+    background-size:cover;
+
+}
+.text1{
+    font-size:20px;
+    text-align: center;
+    background-color: rgb(214, 7, 7);
+    color:white;
+    width:200px;
+    margin-left:15%;
+    margin-top:20%;
+    font-weight:bold;
+    letter-spacing: 1;
+}
+.text2{
+    font-size: 20px;
+        text-align: center;
+        width: 200px;
+        margin-left: 15%;    
+        letter-spacing: 1;
+
+}
+.text3{
+    
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+    margin-left: 15%;
+    font-weight: bolder;
+    letter-spacing: 1;           
+}
+.text4{
+    font-size: 10px;
+    text-align: center;
+    width: 200px;
+    margin-left: 15%;
+    letter-spacing: 1;
+}
+.btn{
+    height:30px;
+    width:200px;
+    background-color: rgba(135, 133, 133, 0.3);
+    text-align:center;
+    margin-left:15%;
+    margin-top:5%;
+    color:white;
+    font-weight: bold;
+    
+}
+#toast-message {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    transform: translateX(-10%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+  

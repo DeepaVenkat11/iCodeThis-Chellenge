@@ -1,116 +1,165 @@
-/* Write your CSS code here */
-body{
-    height:100vh;
+body {
+    height: 100vh;
     align-items: center;
     display: flex;
     justify-content: center;
     background-color: aliceblue;
 }
-img{
-  margin-left:7%; 
-  width:120px;
-  height:170px; 
+
+img {
+    margin-left: 5%;
+    width: 130px;
+    height: 200px;
+    display:flex;
+    flex: 0 0 30%;
+    margin-top:15px;
 }
-p{
-    font-size:10px;
+
+
+p {
+    font-size: 10px;
 }
-.movie h1{
-    font-size:18px;
+
+.movie h1 {
+    font-size: 18px;
     font-weight: 600;
-    margin-right:55%;
-    margin-left:5%;
+    margin-right: 50%;
+    margin-left: 5%;
 }
-.movie{
-    display: flex;
-    margin-top:10%;
+h3{
+    font-size:11px;
 }
-.container{
-    height:400px;
-    width:600px;
-    background-color: white;
-
-}
-.details{
-    display:flex;
-    flex-direction: column;
-    
-}
-div a{
-    margin-left:5%;
-}
-.part{
-    display:flex;
-    flex-direction: column;
-}
-.part2{
-    margin-left:10px;
-
-}
-.trailer{
-    font-size:10px;
-    font-weight: bold;
-    color:white;
-    height:20px;
-    width:130px;
-    border-radius:10px;
-    background-color: black;
-    position:relative;
-    text-align:center;
-    
-}
-
-
-
-li{
-    font-size:10px;
-    color:rgb(29, 170, 226);
-}
-h2{
-    color:black;
-    font-size:13px;
-    font-weight: bold;
-}
-a , span{
+.type{
+    font-size:11px;
     color:rgb(6, 143, 235);
-    font-size:12px;
+    font-weight:400;
+    margin-left:5%;
+}
+.movie {
+    display: flex;
+    margin-top: 10%;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 3px 4px rgb(177, 176, 176,0.7);
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+div a {
+    margin-left: 5%;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    margin-left:30%;
+    margin-top:-34%;
+    
+}
+
+.part2 {
+    margin-left: 10px;
+    margin-top:5%;
+}
+
+.trailer {
+    font-size: 8px;
+    font-weight: 400;
+    color: white;
+    height: 20px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left:50%;   
+    padding:5px 25px;
+    position:relative;
+    
+    
+    
+}li {
+    font-size: 9px;
+    color: rgb(29, 170, 226);
+}
+
+h2 {
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+a{
+    font-size:8px;
+    text-decoration: underline;
+    color:rgb(6, 143, 235);
+    font-weight: 800;
+}
+span {
+    color: rgb(6, 143, 235);
+    font-size: 11px;
     font-weight: 700;
 }
-#circle{
-    font-size:10px;
-    height:20px;
-    width:20px;
-    border-radius: 50%;
-    border:2px solid black;
-    text-align: center;
-    padding:4px;
-    color:black;
-    position:absolute;
-}
-.rate{
-    font-size:10px;
-    font-weight: bold;
-    margin-left:5%;
-    margin-right:10%;
-    margin-top:0;
 
+#circle {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    color: black;
+    position: absolute;
+    margin-left:-19px;
+    margin-top:10px;
+    transform: translateY(-50%);
+    background-color: white;
+    
+    
+    
 }
-.buy{
+
+
+.rate {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 0;
+}
+
+.buy {
     font-size: 9px;
     font-weight: bold;
-    height:20px;
-    width:50px;
-    border:1px solid black;
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
     border-radius: 10px;
 }
-.btn{
-    display:flex;
-    padding-right:10%;
+.buy:hover{
+    background-color: black;
+    color:white;
 }
-.part1{
-    margin-left:5%;
-    margin-right:20%;
+
+.btn {
+    display: flex;
+    padding-right: 10%;
+    margin-top:10px;
 }
-.part2{
-    display:flex;
+
+.part1 {
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.part2 {
+    display: flex;
     flex-direction: row;
 }
